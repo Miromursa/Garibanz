@@ -1,0 +1,17 @@
+x:0 y: 90
+x:45 y:45
+x:90 y:0
+x:-90 y:180
+x:180 y:-90
+
+f(x) = -x + 90
+45 = -x + 90
+
+
+
+
+f(x) der zu rotierende Winkel
+x1 der targetAngle
+x2 der lookAngle
+
+f(x) = x1 + x2;
