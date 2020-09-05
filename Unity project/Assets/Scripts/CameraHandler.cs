@@ -4,38 +4,62 @@ using UnityEngine;
 
 public class CameraHandler : MonoBehaviour
 {
+    private enum CamStates { free, locked };
+    private CamStates currentState;
+
     public Cinemachine.CinemachineFreeLook freelookCam;
     public Cinemachine.CinemachineVirtualCamera lockOnCam;
 
-    public bool freeLookCamera = true;
-    // Update is called once per frame
-    void FixedUpdate()
+    void Start()
     {
-        CameraSwitch();
-        if(lockOnCam.m_LookAt == null)
-        {
-            lockOnCam.enabled = false;
-            freelookCam.enabled = true;
-            freeLookCamera = true;
-        }
+        currentState = CamStates.free;
     }
 
-    void CameraSwitch()
+    void Update()
     {
         if (Input.GetKeyDown("left alt"))
         {
-            if (freelookCam.enabled && lockOnCam.m_LookAt != null)
+            if (currentState == CamStates.free && lockOnCam.m_LookAt != null)
             {
-                lockOnCam.enabled = true;
-                freelookCam.enabled = false;
-                freeLookCamera = false;
+                currentState = CamStates.locked;
             }
             else
             {
-                lockOnCam.enabled = false;
-                freelookCam.enabled = true;
-                freeLookCamera = true;
+                currentState = CamStates.free;
             }
         }
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        switch (currentState)
+        {
+            case CamStates.free: freeCam(); break;
+            case CamStates.locked: lockedCam(); break;
+            default: break;
+        }
+    }
+
+    void freeCam()
+    {
+        lockOnCam.enabled = false;
+        freelookCam.enabled = true;
+    }
+
+    void lockedCam()
+    {
+        lockOnCam.enabled = true;
+        freelookCam.enabled = false;
+    }
+
+    public bool isFreeCam()
+    {
+        if (currentState == CamStates.free)
+        {
+            return true;
+        }
+        else
+            return false;
     }
 }

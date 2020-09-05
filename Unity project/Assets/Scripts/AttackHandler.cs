@@ -27,10 +27,10 @@ public class AttackHandler : MonoBehaviour
             animationHandler.anim.SetBool("isAttackButton", true);
         }
 
+        //WE SHOULD MOVE THIS TO ANIMATION TAB
             if (animationHandler.anim.GetCurrentAnimatorStateInfo(0).IsName("Sword Attack") &&
     animationHandler.anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
         {
-            Debug.Log("geh rein");
             isAttackEnabled = true;
             movementHandler.enableMovement();
             animationHandler.anim.SetBool("isAttackButton", false); 
