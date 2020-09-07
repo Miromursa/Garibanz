@@ -28,11 +28,7 @@ public class CameraHandler : MonoBehaviour
                 currentState = CamStates.free;
             }
         }
-    }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
         switch (currentState)
         {
             case CamStates.free: freeCam(); break;

@@ -41,8 +41,8 @@ public class MovementHandler : MonoBehaviour
         currentState = States.idle;
 
         //get all the needed Components
-        animationHandler = GetComponentInChildren<AnimationHandler>();
-        anim = GetComponentInChildren<Animator>();
+        animationHandler = GetComponent<AnimationHandler>();
+        anim = GetComponent<Animator>();
         cameraHandler = GetComponent<CameraHandler>();
         rb = GetComponent<Rigidbody>();
         cam = Camera.main.transform;
@@ -52,6 +52,7 @@ public class MovementHandler : MonoBehaviour
     void Update()
     {
         direction = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical")).normalized;
+        stateSwitcher();
     }
 
     //Movement is handled via FixedUpdate because we use Rigidbody and physics
@@ -75,20 +76,9 @@ public class MovementHandler : MonoBehaviour
             rotateToTarget();
         }
 
-        //switch statements
-        if (direction.magnitude >= 0.1f && Input.GetKey("left shift"))
-        {
-            currentState = States.sprint;
-        }
-        else if(direction.magnitude >= 0.1f)
-        {
-            currentState = States.walk;
-        }
-        else
-        {
-            //nullifies x and z movement
-            rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
-        }      
+        //nullifies x, y and z movement
+        rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
+      
     }
 
     void walk()
@@ -107,17 +97,6 @@ public class MovementHandler : MonoBehaviour
 
         Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
         rb.velocity = moveDir.normalized * normalSpeed;
-
-        //switch statements
-        if (Input.GetKey("left shift"))
-        {
-            currentState = States.sprint;
-        }
-        
-        if (direction.magnitude < 0.1f)
-        {
-            currentState = States.idle;
-        }
     }
 
     void sprint()
@@ -128,16 +107,6 @@ public class MovementHandler : MonoBehaviour
 
         Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
         rb.velocity = moveDir.normalized * sprintSpeed;
-
-        //switch statements
-        if (!Input.GetKey("left shift")) {
-            currentState = States.walk;
-        }
-
-        if (direction.magnitude < 0.1f)
-        {
-            currentState = States.idle;
-        }
     }
 
     void attack()
@@ -148,6 +117,63 @@ public class MovementHandler : MonoBehaviour
     void roll()
     {
 
+    }
+
+    void stateSwitcher()
+    {
+        switch (currentState)
+        {
+            case States.idle:
+                if (direction.magnitude >= 0.1f && Input.GetKey("left shift"))
+                {
+                    currentState = States.sprint;
+                }
+                else if (direction.magnitude >= 0.1f)
+                {
+                    currentState = States.walk;
+                }
+
+                if (Input.GetKey("space"))
+                {
+                    currentState = States.roll;
+                }
+                break;
+
+            case States.walk:
+                if (Input.GetKey("left shift"))
+                {
+                    currentState = States.sprint;
+                }
+
+                if (direction.magnitude < 0.1f)
+                {
+                    currentState = States.idle;
+                }
+                break;
+
+            case States.sprint:
+                if (!Input.GetKey("left shift"))
+                {
+                    currentState = States.walk;
+                }
+
+                if (direction.magnitude < 0.1f)
+                {
+                    currentState = States.idle;
+                }
+                break;
+
+            case States.roll:
+                if (anim.GetCurrentAnimatorStateInfo(0).IsName("Roll") &&
+                    anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+                {
+                    currentState = States.idle;
+                }
+                break;
+            //case States.attack: attack(); break;
+
+            default: break;
+        }
     }
 
     void rotateToTarget()

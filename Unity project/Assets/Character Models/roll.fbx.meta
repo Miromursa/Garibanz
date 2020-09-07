@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 094b1b034869c154cabaa1d1b95a5171
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -2007723325625631122
+    second: metarig|Cube.001Action
+  - first:
+      74: -4996373710862547195
+    second: metarig|Cube.002Action
+  - first:
+      74: 2522241149904950146
+    second: metarig|Cube.003Action
+  - first:
+      74: 5296913521568851940
+    second: metarig|Cube.004Action
+  - first:
+      74: -2111415547419279367
+    second: metarig|Cube.005Action
+  - first:
+      74: -1981170162474633425
+    second: metarig|Cube.006Action
+  - first:
+      74: -3513894054498265497
+    second: metarig|Cube.007Action
+  - first:
+      74: 5796165218961598485
+    second: metarig|Cube.008Action
+  - first:
+      74: 5321346715949837828
+    second: metarig|Cube.009Action
+  - first:
+      74: -7504929031213651042
+    second: metarig|Cube.010Action
+  - first:
+      74: -7137266519980300419
+    second: metarig|Cube.011Action
+  - first:
+      74: -3088524353807187855
+    second: metarig|Cube.012Action
+  - first:
+      74: -7028821600254026695
+    second: metarig|Cube.013Action
+  - first:
+      74: -8198947625984653817
+    second: metarig|Cube.014Action
+  - first:
+      74: -802648630936339916
+    second: metarig|Cube.015Action
+  - first:
+      74: -8865563238913426318
+    second: metarig|Cube.016Action
+  - first:
+      74: -9123809427316175979
+    second: metarig|Cube.017Action
+  - first:
+      74: 972080500427292225
+    second: metarig|Cube.018Action
+  - first:
+      74: -934253813752277565
+    second: metarig|Cube.019Action
+  - first:
+      74: 1830777761703343413
+    second: metarig|Cube.020Action
+  - first:
+      74: 9134399250221319509
+    second: metarig|Cube.021Action
+  - first:
+      74: 1249908194208482353
+    second: metarig|Icosphere.001Action
+  - first:
+      74: 5947401012142270769
+    second: metarig|Icosphere.002Action
+  - first:
+      74: -7042706869845250833
+    second: metarig|Icosphere.003Action
+  - first:
+      74: 8267531029974925981
+    second: metarig|Icosphere.004Action
+  - first:
+      74: -7007451018405533435
+    second: metarig|Icosphere.005Action
+  - first:
+      74: -8896924363943125491
+    second: metarig|Icosphere.006Action
+  - first:
+      74: -910747866862110011
+    second: metarig|Icosphere.007Action
+  - first:
+      74: 821006847546186708
+    second: metarig|Icosphere.008Action
+  - first:
+      74: 8106078309644670063
+    second: metarig|Icosphere.009Action
+  - first:
+      74: 3118643652495528466
+    second: metarig|Icosphere.010Action
+  - first:
+      74: 7581429981011715703
+    second: metarig|Icosphere.011Action
+  - first:
+      74: -6108700678889998926
+    second: metarig|IcosphereAction
+  - first:
+      74: -5324238279805231817
+    second: metarig|Idle
+  - first:
+      74: 8881085503049773445
+    second: metarig|KatanaAction
+  - first:
+      74: -8577492432117613333
+    second: metarig|Roll
+  - first:
+      74: -3231809290227995724
+    second: metarig|Sprint
+  - first:
+      74: 6570423943392465186
+    second: metarig|SwordSlash.001
+  - first:
+      74: 2933577835342229695
+    second: metarig|Walk
+  - first:
+      74: -4622674298104260948
+    second: Katana|Cube.001Action
+  - first:
+      74: 6174807296178172878
+    second: Katana|Cube.002Action
+  - first:
+      74: -6318660342754710424
+    second: Katana|Cube.003Action
+  - first:
+      74: -1560552763068054963
+    second: Katana|Cube.004Action
+  - first:
+      74: -7744935095762742264
+    second: Katana|Cube.005Action
+  - first:
+      74: 1129416273611523220
+    second: Katana|Cube.006Action
+  - first:
+      74: 7404823252489385986
+    second: Katana|Cube.007Action
+  - first:
+      74: 4468457435250456001
+    second: Katana|Cube.008Action
+  - first:
+      74: 3082760783020108669
+    second: Katana|Cube.009Action
+  - first:
+      74: 7838354647036520553
+    second: Katana|Cube.010Action
+  - first:
+      74: 8344664900379968377
+    second: Katana|Cube.011Action
+  - first:
+      74: -287469341775755686
+    second: Katana|Cube.012Action
+  - first:
+      74: -3185420690032941607
+    second: Katana|Cube.013Action
+  - first:
+      74: 5305255631556486135
+    second: Katana|Cube.014Action
+  - first:
+      74: -4443667893287768677
+    second: Katana|Cube.015Action
+  - first:
+      74: 7094622814921406513
+    second: Katana|Cube.016Action
+  - first:
+      74: -7285064544860139885
+    second: Katana|Cube.017Action
+  - first:
+      74: 3170942865739374187
+    second: Katana|Cube.018Action
+  - first:
+      74: 5231571677389312855
+    second: Katana|Cube.019Action
+  - first:
+      74: 31759207965208641
+    second: Katana|Cube.020Action
+  - first:
+      74: -8596380614104440088
+    second: Katana|Cube.021Action
+  - first:
+      74: -6144885359099830916
+    second: Katana|Icosphere.001Action
+  - first:
+      74: 4925787640841023113
+    second: Katana|Icosphere.002Action
+  - first:
+      74: 7397283622972857280
+    second: Katana|Icosphere.003Action
+  - first:
+      74: -6973022548561153447
+    second: Katana|Icosphere.004Action
+  - first:
+      74: -1373583317986135073
+    second: Katana|Icosphere.005Action
+  - first:
+      74: -4823497145831564580
+    second: Katana|Icosphere.006Action
+  - first:
+      74: 8395629807718233934
+    second: Katana|Icosphere.007Action
+  - first:
+      74: 4343199521093859199
+    second: Katana|Icosphere.008Action
+  - first:
+      74: -5402014881115744417
+    second: Katana|Icosphere.009Action
+  - first:
+      74: 4294919727632419606
+    second: Katana|Icosphere.010Action
+  - first:
+      74: -1259032511413529447
+    second: Katana|Icosphere.011Action
+  - first:
+      74: -469821043933032706
+    second: Katana|IcosphereAction
+  - first:
+      74: 3227033691032222008
+    second: Katana|KatanaAction
+  - first:
+      74: -1559071518392153964
+    second: Armature|Cube.001Action
+  - first:
+      74: 4828028426687900610
+    second: Armature|Cube.002Action
+  - first:
+      74: -641469621222406232
+    second: Armature|Cube.003Action
+  - first:
+      74: -5366448631078171872
+    second: Armature|Cube.004Action
+  - first:
+      74: -3653244689128496862
+    second: Armature|Cube.005Action
+  - first:
+      74: 1378035572452230449
+    second: Armature|Cube.006Action
+  - first:
+      74: -2592856928584707257
+    second: Armature|Cube.007Action
+  - first:
+      74: 1106582937265791641
+    second: Armature|Cube.008Action
+  - first:
+      74: -7615013694417846363
+    second: Armature|Cube.009Action
+  - first:
+      74: 3220783363623967879
+    second: Armature|Cube.010Action
+  - first:
+      74: -7034413141211706531
+    second: Armature|Cube.011Action
+  - first:
+      74: 1964453785263885373
+    second: Armature|Cube.012Action
+  - first:
+      74: -1629557093696662838
+    second: Armature|Cube.013Action
+  - first:
+      74: 2478288699439937343
+    second: Armature|Cube.014Action
+  - first:
+      74: -7602510189992631710
+    second: Armature|Cube.015Action
+  - first:
+      74: 7534112050419765889
+    second: Armature|Cube.016Action
+  - first:
+      74: 1724444455272183279
+    second: Armature|Cube.017Action
+  - first:
+      74: -3439784143503450263
+    second: Armature|Cube.018Action
+  - first:
+      74: 9215335188510668968
+    second: Armature|Cube.019Action
+  - first:
+      74: 8920559740511372390
+    second: Armature|Cube.020Action
+  - first:
+      74: 7676163220045093956
+    second: Armature|Cube.021Action
+  - first:
+      74: 8209292733014699952
+    second: Armature|Icosphere.001Action
+  - first:
+      74: -3252655449815176165
+    second: Armature|Icosphere.002Action
+  - first:
+      74: -7895161183481485846
+    second: Armature|Icosphere.003Action
+  - first:
+      74: 6842414618785821935
+    second: Armature|Icosphere.004Action
+  - first:
+      74: -7945798396936241416
+    second: Armature|Icosphere.005Action
+  - first:
+      74: -2376953932323487263
+    second: Armature|Icosphere.006Action
+  - first:
+      74: -4807326537684042875
+    second: Armature|Icosphere.007Action
+  - first:
+      74: -7048748342386200882
+    second: Armature|Icosphere.008Action
+  - first:
+      74: -7580822543789125561
+    second: Armature|Icosphere.009Action
+  - first:
+      74: -6428611444605164097
+    second: Armature|Icosphere.010Action
+  - first:
+      74: -5047082425461358860
+    second: Armature|Icosphere.011Action
+  - first:
+      74: -4141349546125388587
+    second: Armature|IcosphereAction
+  - first:
+      74: 380147986988118099
+    second: Armature|KatanaAction
+  - first:
+      74: -2984895692146095959
+    second: Armature|SwordSlash
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: spine
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.001
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.005
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.006
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: "s\xFCbhan(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: metarig
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 168.41388, y: 168.41388, z: 168.41388}
+    - name: spine
+      parentName: metarig
+      position: {x: -0, y: 0.000068045585, z: 0.009425672}
+      rotation: {x: 0.7647404, y: -0.0000000713813, z: -0.000000089511126, w: 0.6443386}
+      scale: {x: 1, y: 0.99999934, z: 0.99999934}
+    - name: spine.001
+      parentName: spine
+      position: {x: 4.2351646e-24, y: 0.0014956803, z: 7.4505804e-11}
+      rotation: {x: -0.060149066, y: -1.882938e-13, z: 0.0000000143406975, w: 0.9981894}
+      scale: {x: 0.99999994, y: 0.99999607, z: 0.9999955}
+    - name: spine.002
+      parentName: spine.001
+      position: {x: 7.541996e-17, y: 0.001673725, z: 2.6077032e-10}
+      rotation: {x: -0.067932025, y: 1.2491467e-13, z: 0.000000016196292, w: 0.99769}
+      scale: {x: 0.9999999, y: 0.99999845, z: 0.9999993}
+    - name: spine.005
+      parentName: spine.002
+      position: {x: 1.2359539e-11, y: 0.0041227955, z: 0.000051839892}
+      rotation: {x: 0.2389797, y: 4.833571e-14, z: -0.00000005697726, w: 0.97102463}
+      scale: {x: 0.99999994, y: 0.99999833, z: 1.0000001}
+    - name: spine.006
+      parentName: spine.005
+      position: {x: -1.6903487e-16, y: 0.000722895, z: 3.9115547e-10}
+      rotation: {x: -0.19708653, y: 0.00000011687041, z: 0.000000023494707, w: 0.9803861}
+      scale: {x: 1.0000001, y: 1.0000057, z: 0.9999943}
+    - name: spine.006_end
+      parentName: spine.006
+      position: {x: -0, y: 0.0024459134, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upper_arm.L
+      parentName: spine.002
+      position: {x: -0.0021965355, y: 0.003322227, z: -0.00041145892}
+      rotation: {x: 0.0052508917, y: -0.009454612, z: 0.7208754, w: 0.6929804}
+      scale: {x: 1.0000192, y: 1.0000193, z: 1.0000005}
+    - name: forearm.L
+      parentName: upper_arm.L
+      position: {x: -2.7939676e-10, y: 0.002605872, z: 5.5879353e-11}
+      rotation: {x: 0.036697432, y: -0.06815924, z: 0.000723973, w: 0.9969991}
+      scale: {x: 1.0000064, y: 1.0000106, z: 1.000006}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: -9.848736e-10, y: 0.0023248452, z: -1.3038516e-10}
+      rotation: {x: 0.012385418, y: 0.05742736, z: 0.07107528, w: 0.99573946}
+      scale: {x: 0.99998, y: 1.0000179, z: 1.000009}
+    - name: hand.L.001
+      parentName: hand.L
+      position: {x: -2.598972e-10, y: 0.0012243091, z: -1.3969838e-11}
+      rotation: {x: -0.05065368, y: 0.000001002103, z: 0.38649145, w: 0.92090094}
+      scale: {x: 0.9999646, y: 1.0000451, z: 1.0000063}
+    - name: hand.L.001_end
+      parentName: hand.L.001
+      position: {x: -0, y: 0.0007042273, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upper_arm.R
+      parentName: spine.002
+      position: {x: 0.0021965352, y: 0.0033222246, z: -0.00041146012}
+      rotation: {x: -0.0052503995, y: -0.009454622, z: 0.720875, w: -0.69298065}
+      scale: {x: 1.000016, y: 1.0000136, z: 1.0000001}
+    - name: forearm.R
+      parentName: upper_arm.R
+      position: {x: 1.1874363e-10, y: 0.002605875, z: -8.381903e-11}
+      rotation: {x: 0.036697615, y: 0.06815953, z: -0.000724227, w: 0.996999}
+      scale: {x: 1.0000257, y: 1.0000317, z: 1.0000035}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: 8.8475643e-11, y: 0.002324846, z: -7.4505804e-11}
+      rotation: {x: 0.012385395, y: -0.05742763, z: -0.07107573, w: 0.99573934}
+      scale: {x: 0.99997026, y: 1.0000054, z: 1.0000082}
+    - name: hand.R.001
+      parentName: hand.R
+      position: {x: 3.5215633e-10, y: 0.0012243098, z: 1.3969838e-11}
+      rotation: {x: -0.050653554, y: -0.00000030174849, z: -0.38649085, w: 0.92090124}
+      scale: {x: 0.9999498, y: 1.0000297, z: 1.0000105}
+    - name: hand.R.001_end
+      parentName: hand.R.001
+      position: {x: -0, y: 0.0007042258, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.L
+      parentName: spine
+      position: {x: -0.0011904148, y: -0.00030989933, z: -0.0000034279053}
+      rotation: {x: 0.99667144, y: -0.068339355, z: 0.013281243, w: 0.042420633}
+      scale: {x: 0.99999976, y: 1.000011, z: 1.0000094}
+    - name: shin.L
+      parentName: thigh.L
+      position: {x: -1.268927e-10, y: 0.0042894674, z: 1.2340023e-10}
+      rotation: {x: 0.017351864, y: -0.013147515, z: 0.004456758, w: 0.9997531}
+      scale: {x: 1.0000002, y: 1.0000211, z: 1.0000182}
+    - name: foot.L
+      parentName: shin.L
+      position: {x: -8.032657e-11, y: 0.0038959251, z: 3.9872248e-11}
+      rotation: {x: -0.5860321, y: -0.03387846, z: 0.007113303, w: 0.8095481}
+      scale: {x: 0.9999953, y: 1.0000029, z: 1.0000082}
+    - name: foot.L_end
+      parentName: foot.L
+      position: {x: -0, y: 0.0020967338, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.R
+      parentName: spine
+      position: {x: 0.0011904148, y: -0.00030989933, z: -0.0000034284449}
+      rotation: {x: 0.9966715, y: 0.068338886, z: -0.013277559, w: 0.042420346}
+      scale: {x: 0.9999957, y: 1.0000085, z: 1.0000092}
+    - name: shin.R
+      parentName: thigh.R
+      position: {x: -8.643838e-11, y: 0.0042894683, z: 1.8626451e-11}
+      rotation: {x: 0.017351842, y: 0.013147706, z: -0.0044569373, w: 0.9997531}
+      scale: {x: 0.9999945, y: 1.0000056, z: 1.0000113}
+    - name: foot.R
+      parentName: shin.R
+      position: {x: -7.101335e-11, y: 0.003895926, z: 8.6220094e-11}
+      rotation: {x: -0.58603233, y: 0.033877876, z: -0.0071123545, w: 0.8095479}
+      scale: {x: 0.9999982, y: 1.0000103, z: 1.0000107}
+    - name: foot.R_end
+      parentName: foot.R
+      position: {x: -0, y: 0.0020967342, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.001
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.000000026822088, y: -0.0000000017881393, z: -0.0000000023841855}
+      rotation: {x: -0.7071068, y: 0.0000000012644068, z: 0.000000007586436, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.005
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.00000005602836, y: -0.00000000894076, z: -0.00000040054317}
+      rotation: {x: -0.7071068, y: 0.00000004404347, z: 0.00000007691805, w: 0.7071067}
+      scale: {x: 99.999985, y: 99.99996, z: 99.999985}
+    - name: Cube.008
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.000000052005046, y: -5.9604677e-10, z: -0.0000000020861628}
+      rotation: {x: -0.7071068, y: -0.000000003793215, z: 0.000000009693779, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99998}
+    - name: Cube.012
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.00000033348798, y: -0.000000118613094, z: 0.00000088810896}
+      rotation: {x: -0.70710695, y: -0.0000005755155, z: -0.00000071101766, w: 0.7071066}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.016
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.00000025987623, y: -0.0000020289422, z: -0.00000053465334}
+      rotation: {x: -0.7071069, y: -0.00000009778061, z: 0.00000012201508, w: 0.7071067}
+      scale: {x: 100.00004, y: 100.000015, z: 100.00007}
+    - name: Cube.020
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.0000002481043, y: 0.0000008487702, z: 0.0000007000563}
+      rotation: {x: -0.7071068, y: -0.0000013588145, z: 0.00000025014165, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99998, z: 99.99998}
+    - name: Icosphere.002
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.00000034973013, y: -0.00000006675704, z: 0.0000009790061}
+      rotation: {x: -0.70710695, y: -0.0000006121832, z: -0.0000007801385, w: 0.7071066}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Icosphere.006
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.000000043064347, y: -0.000000009536685, z: 0.00000034630295}
+      rotation: {x: -0.7071069, y: -0.00000007565364, z: -0.00000006111294, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.999985}
+    - name: Icosphere.010
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.0000016641615, y: 0.00000053167395, z: 0.0000034406776}
+      rotation: {x: -0.70710707, y: 0.0000018612118, z: 0.000001918532, w: 0.7071066}
+      scale: {x: 99.99964, y: 99.99961, z: 99.99998}
+    - name: Cube.002
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.000000026822088, y: -0.0000000017881393, z: -0.0000000023841855}
+      rotation: {x: -0.7071068, y: 0.0000000012644068, z: 0.000000007586436, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.003
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.000000005364418, y: -0.00000024557113, z: -8.940296e-10}
+      rotation: {x: -0.7071068, y: 0.0000000012644068, z: 0.000000007586436, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.006
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.0000004212558, y: -0.0000021499397, z: -0.00000083804093}
+      rotation: {x: -0.7071069, y: -0.00000018671045, z: 0.00000011674673, w: 0.7071067}
+      scale: {x: 100.00004, y: 99.999985, z: 100.000046}
+    - name: Cube.009
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.0000016447901, y: 0.00000065624755, z: 0.000003381967}
+      rotation: {x: -0.70710695, y: 0.0000018234894, z: 0.0000019231684, w: 0.7071066}
+      scale: {x: 99.99969, y: 99.9996, z: 99.99998}
+    - name: Cube.013
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.000000043064347, y: -0.000000009536685, z: 0.00000034630295}
+      rotation: {x: -0.7071069, y: -0.00000007565364, z: -0.00000006111294, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.999985}
+    - name: Cube.017
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.0000003026425, y: -0.0000009584426, z: -0.000000028014021}
+      rotation: {x: -0.70710707, y: 0.000000074810686, z: 0.00000006048074, w: 0.7071066}
+      scale: {x: 99.999985, y: 99.999985, z: 99.999985}
+    - name: Icosphere
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.00000005602836, y: -0.00000000894076, z: -0.00000040054317}
+      rotation: {x: -0.7071068, y: 0.00000004404347, z: 0.00000007691805, w: 0.7071067}
+      scale: {x: 99.999985, y: 99.99996, z: 99.999985}
+    - name: Icosphere.003
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.0000016447901, y: 0.00000065624755, z: 0.000003381967}
+      rotation: {x: -0.70710695, y: 0.0000018234894, z: 0.0000019231684, w: 0.7071066}
+      scale: {x: 99.99969, y: 99.9996, z: 99.99998}
+    - name: Icosphere.007
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.00000025987623, y: -0.0000020289422, z: -0.00000053465334}
+      rotation: {x: -0.7071069, y: -0.00000009778061, z: 0.00000012201508, w: 0.7071067}
+      scale: {x: 100.00004, y: 100.000015, z: 100.00007}
+    - name: Icosphere.011
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.00000033348798, y: -0.000000118613094, z: 0.00000088810896}
+      rotation: {x: -0.70710695, y: -0.0000005755155, z: -0.00000071101766, w: 0.7071066}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.004
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.000000026822088, y: -0.0000000017881393, z: -0.0000000023841855}
+      rotation: {x: -0.7071068, y: 0.0000000012644068, z: 0.000000007586436, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.007
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.0000003316998, y: -0.0000019145016, z: -0.0000009459254}
+      rotation: {x: -0.7071069, y: -0.0000001308659, z: 0.000000035824822, w: 0.7071067}
+      scale: {x: 100.000046, y: 100.000046, z: 100.000046}
+    - name: Cube.010
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.00000034973013, y: -0.00000006675704, z: 0.0000009790061}
+      rotation: {x: -0.70710695, y: -0.0000006121832, z: -0.0000007801385, w: 0.7071066}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.014
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.00000000476837, y: 0.00000011503693, z: 0.0000000035762595}
+      rotation: {x: -0.7071068, y: 0.0000000012644068, z: 0.000000007586436, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.018
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.00000025987623, y: -0.0000020289422, z: -0.00000053465334}
+      rotation: {x: -0.7071069, y: -0.00000009778061, z: 0.00000012201508, w: 0.7071067}
+      scale: {x: 100.00004, y: 100.000015, z: 100.00007}
+    - name: Icosphere.001
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.0000004212558, y: -0.0000021499397, z: -0.00000083804093}
+      rotation: {x: -0.7071069, y: -0.00000018671045, z: 0.00000011674673, w: 0.7071067}
+      scale: {x: 100.00004, y: 99.999985, z: 100.000046}
+    - name: Icosphere.004
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.000000052005046, y: -5.9604677e-10, z: -0.0000000020861628}
+      rotation: {x: -0.7071068, y: -0.000000003793215, z: 0.000000009693779, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99998}
+    - name: Icosphere.008
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.00000034973013, y: -0.00000006675704, z: 0.0000009790061}
+      rotation: {x: -0.70710695, y: -0.0000006121832, z: -0.0000007801385, w: 0.7071066}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.011
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.000000026822088, y: -0.0000000017881393, z: -0.0000000023841855}
+      rotation: {x: -0.7071068, y: 0.0000000012644068, z: 0.000000007586436, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.99996}
+    - name: Cube.015
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.0000016641615, y: 0.00000053167395, z: 0.0000034406776}
+      rotation: {x: -0.70710707, y: 0.0000018612118, z: 0.000001918532, w: 0.7071066}
+      scale: {x: 99.99964, y: 99.99961, z: 99.99998}
+    - name: Cube.019
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.000000043064347, y: -0.000000009536685, z: 0.00000034630295}
+      rotation: {x: -0.7071069, y: -0.00000007565364, z: -0.00000006111294, w: 0.7071067}
+      scale: {x: 99.99996, y: 99.99996, z: 99.999985}
+    - name: Cube.021
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.0000011242926, y: 0.00000073552195, z: 0.000003776847}
+      rotation: {x: -0.7071075, y: 0.0000017345601, z: 0.0000010066829, w: 0.7071062}
+      scale: {x: 99.99964, y: 99.99958, z: 99.99996}
+    - name: Icosphere.005
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: -0.0000003316998, y: -0.0000019145016, z: -0.0000009459254}
+      rotation: {x: -0.7071069, y: -0.0000001308659, z: 0.000000035824822, w: 0.7071067}
+      scale: {x: 100.000046, y: 100.000046, z: 100.000046}
+    - name: Icosphere.009
+      parentName: "s\xFCbhan(Clone)"
+      position: {x: 0.0000016447901, y: 0.00000065624755, z: 0.000003381967}
+      rotation: {x: -0.70710695, y: 0.0000018234894, z: 0.0000019231684, w: 0.7071066}
+      scale: {x: 99.99969, y: 99.9996, z: 99.99998}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9087e47b31af1fc4384cd924c512c8f6,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
