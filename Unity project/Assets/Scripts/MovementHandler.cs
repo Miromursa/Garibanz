@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovementHandler : MonoBehaviour
 {
     //states
-    private enum States { idle, walk, sprint, attack, roll };
+    private enum States { idle, walk, sprint, attack, roll, jump };
     private States currentState;
 
     //need to be initialized in Start() method
@@ -65,6 +65,7 @@ public class MovementHandler : MonoBehaviour
             case States.sprint: sprint(); break;
             case States.attack: attack(); break;
             case States.roll: roll(); break;
+
             default: break;
         }
     }
